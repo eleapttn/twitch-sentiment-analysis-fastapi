@@ -8,7 +8,7 @@ import transformers
 app = FastAPI()
 
 # define hugging face model
-model = transformers.pipeline('sentiment-analysis', model="moussaKam/barthez-sentiment-classification")
+model = transformers.pipeline('sentiment-analysis', model="philschmid/pt-tblard-tf-allocine")
 
 # define the data format
 class request_body(BaseModel):
