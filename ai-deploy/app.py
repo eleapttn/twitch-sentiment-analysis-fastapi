@@ -20,7 +20,7 @@ def root():
     return {'message': 'Welcome to the Sentiment Analysis API'}
 
 # POST method
-@app.post('/spam_detection_path')
+@app.post('/sentiment_analysis_path')
 def classify_message(data : request_body):
 
     # message formatting
