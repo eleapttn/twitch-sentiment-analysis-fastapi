@@ -17,7 +17,7 @@ class request_body(BaseModel):
 # GET method
 @app.get('/')
 def root():
-    return {'message': 'Welcome to the SPAM classifier API'}
+    return {'message': 'Welcome to the Sentiment Analysis API'}
 
 # POST method
 @app.post('/spam_detection_path')
