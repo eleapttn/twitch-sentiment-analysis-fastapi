@@ -9,5 +9,5 @@ ovhai notebook run conda jupyterlab --framework-version conda-py38-cuda11.3-v22-
 Launch the AI Deploy app:
 
 ```bash
-ovhai app run --cpu 4 --default-port-http 8000 priv-registry.gra.training.ai.cloud.ovh.net/ai-deploy-portfolio/fastapi-sentiment-classification
+ovhai app run --cpu 4 --default-http-port 8000 priv-registry.gra.training.ai.cloud.ovh.net/ai-deploy-portfolio/fastapi-sentiment-classification
 ```
